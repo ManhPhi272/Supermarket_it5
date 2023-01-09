@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="stylesheet" href="main-page.css">
+</head>
+<body>
+    <div class="main-page">
+        <div class="main-page-btn">
+            <div class="header">
+                <div class="header-container">
+                    <div class="header-item-top">
+                        <div class="header-logo-block">
+                            <img src="logo.png" alt="logo">
+                        </div>
+                        <div class="header-search-block">
+                            <div class="text-search">
+                                <input type="text" placeholder="Nhập tên mã sản phẩm, mã sản phẩm, từ khóa cần tìm ...">
+                                <button><i class="fas fa-search" aria-hidden="true"></i></button>
+                            </div> 
+                        </div>
+                        <div class="header-right-block">
+                            <div class="header-right-1">
+                                <div class="logo-user">
+                                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                </div>
+                                <div class="login">
+                                    <p class="login-1">Đăng nhập</p>
+                                    <p class="login-2">Đăng kí</p>
+                                </div>
+                            </div>
+                            <div class="cart">
+                                <div class="cartlogo">
+                                    <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="number-cart">
+                                     <p>Giỏ hàng (0) sản phẩm</p>
+                                </div>
+                            </div>
+                            <div class="header-right-3">
+                                <p class="text-1">Khu vực giao hàng</p>
+                                <p>Hà Nội</p>
+                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-botton">
+                    <div class="header-item-botton">
+                        <div class="item-left">
+                            <div class="sidebar">
+                                <div class="sidebar-btn">
+                                     <button>
+                                        <i class="fas fa-bars"></i>
+                                         <span>Danh mục sản phẩm</span>
+                                     </button>
+                                     <div class="element-sidebar">
+                                        <li><a href="#">thịt-thủy hải sản-trứng</a></li>
+                                        <li><a href="#">rau-củ-trái cây</a></li>
+                                        <li><a href="#">dầu ăn-gia vị-đồ khô </a></li>
+                                        <li><a href="#">đồ đông lạnh</a></li>
+                                        <li><a href="#">sữa-sản phần từ sữa</a></li>
+                                        <li><a href="#">đồ uống-giải khát</a></li>
+                                        <li><a href="#">bánh kẹo-đồ ăn vặt</a></li>
+                                        <li><a href="#">đồ dùng gia đình</a></li>
+                                    </div>
+                                    
+                                </div>
+                        
+                            </div>
+                        </div>
+                        <div class="item-right">
+                            <div class="right-1">
+                                <i class="fas fa-caret-down"></i>
+                                 <button>Sản phẩm vừa ra mắt</button>
+                            </div>
+                            <div class="right-2">
+                                <i class="fas fa-envelope"></i>
+                                <button>Tin tức supermarket</button>
+                            </div>
+                            <div class="right-3">
+                                <i class="fas fa-headset    "></i>
+                                <button>Tư vấn mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-top">
+                    <div class="slider">
+                        <div class="images">
+                
+                            <input type="radio" name="slide" id="img1">
+                            <input type="radio" name="slide" id="img2">
+                            <input type="radio" name="slide" id="img3">
+                            <input type="radio" name="slide" id="img4">
+                            <input type="radio" name="slide" id="img5">
+                            <input type="radio" name="slide" id="img6">
+                
+                            <img src="slide1.png" alt="" class="m1">
+                            <img src="slide2.jpg" alt="" class="m2">
+                            <img src="slide3.jpg" alt="" class="m3">
+                            <img src="slide4.jpg" alt="" class="m4">
+                            <img src="slide5.jpg" alt="" class="m5">
+                            <img src="slide6.jpg" alt="" class="m6">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="content-center">
+                    <div class="content-center-btn">
+                        <div class="content-mid">
+                            <div class="content-mid-btn">
+                                <div class="content-mid-top">
+                                    <p>Thịt - Hải sản - Trứng</p>
+                                </div>
+                                <div class="content-mid-botton">
+                                    <a href="product-details-1.html">
+                                    <div class="content-item-1">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="meat-item1.jpg" alt="">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -9%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Ba chỉ bò úc Kiaora cắt lát 400g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">106.900đ</p>
+                                                   <p class="price-2">116.900đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </a>
+                                    <a href="product-details-2.html">
+                                    <div class="content-item-2">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="meat-item2.jpg" alt="">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -35%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Hầu sữa Thái Bình Dương Hasubi 300g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">49.500đ</p>
+                                                   <p class="price-2">76.900đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </a>
+                                    <a href="product-details-3.html">
+                                    <div class="content-item-3">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="meat-item3.jpg" alt="">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -21%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Trứng gà tươi Dabaco hộp 10 quả</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">21.000đ</p>
+                                                   <p class="price-2">26.500đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </a>
+                                    <a href="product-details-4.html">
+                                    <div class="content-item-4">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="meat-item4.jpg" alt="">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -0%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Ba chỉ bò Mỹ cắt lát Vimex 500g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">119.000đ</p>
+                                                   <p class="price-2">119.000đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </a>
+                                    <a href="product-details-5.html">
+                                    <div class="content-item-5">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="meat-item5.jpg" alt="">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -0%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Ba chỉ bò Úc Kiaro cắt lát 200g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">66.900đ</p>
+                                                   <p class="price-2">66.900đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                                <div class="content-button">
+                                    <button id="button-deep">Xem tất cả</button>
+                                </div>
+                            </div>
+
+                            <div class="content-mid-btn">
+                                <div class="content-mid-top">
+                                    <p>Rau - Củ - Trái cây</p>
+                                </div>
+                                <div class="content-mid-botton">
+                                    <a href="product-details-6.html">
+                                    <div class="content-item-1">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="vegtable-item1.jpg" alt="Vegtable">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -12%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Nấm Bunapi BIOVEGI 100g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">25.200đ</p>
+                                                   <p class="price-2">28.500đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="product-details-7.html">
+                                    <div class="content-item-2">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="vegtable-item2.jpg" alt="vegatable">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -0%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Giá đỗ L1 VinEco tự nhiên 300g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">9.480đ</p>
+                                                   <p class="price-2">9.480đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="product-details-8.html">
+                                    <div class="content-item-3">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="vegtable-item3.jpg" alt="vegtable">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -0%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Rau muống L1 VinEco 500g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">18.150đ</p>
+                                                   <p class="price-2">18.150đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="product-details-9.html">
+                                    <div class="content-item-4">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="vegtable-item4.jpg" alt="vegatable">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -0%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Nấm đùi gà L1 VinEco tự nhiên 300g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">52.680đ</p>
+                                                   <p class="price-2">52.680đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="product-details-10.html">
+                                    <div class="content-item-5">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="vegtable-item5.jpg" alt="vegtable">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -0%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Bắp cải trái tim Đà Lạt loại 1 VinEco 500g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">24.500đ</p>
+                                                   <p class="price-2">24.500đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                                <div class="content-button">
+                                    <button id="button-deep">Xem tất cả</button>
+                                </div>
+                            </div>
+                            
+                            <div class="content-mid-btn">
+                                <div class="content-mid-top">
+                                    <p>Dầu ăn - Gia vị - Đồ khô</p>
+                                </div>
+                                <div class="content-mid-botton">
+                                    <a href="product-details-11.html">
+                                    <div class="content-item-1">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="dryfood-item1.jpg" alt="Dryfood">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -50%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Gạo ST 24 thái hồng thượng hạng Phú Hải 5kg</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">128.000đ</p>
+                                                   <p class="price-2">256.000đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="product-details-12.html">
+                                    <div class="content-item-2">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="dryfood-item2.jpg" alt="Dryfood">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -26%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Gạo thơm RVT Vinaseed túi 5kg</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">125.000đ</p>
+                                                   <p class="price-2">168.000đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="product-details-13.html">
+                                    <div class="content-item-3">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="dryfood-item3.jpg" alt="Dryfood">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -18%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Dầu ô liu Pomace Olivoila chai 1L</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">165.300đ</p>
+                                                   <p class="price-2">202.500đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="product-details-14.html">
+                                    <div class="content-item-4">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="dryfood-item4.jpg" alt="Dryfood">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -43%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Dầu hướng dương Oganic Sloboda chai 1L</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">40.500đ</p>
+                                                   <p class="price-2">71.000đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="product-details-15.html">
+                                    <div class="content-item-5">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="dryfood-item5.jpg" alt="Dryfood">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -24%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Yến mạch nguyên chất ăn liền nhập khẩu</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">64.000đ</p>
+                                                   <p class="price-2">84.000đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                <div class="content-button">
+                                    <button id="button-deep">Xem tất cả</button>
+                                </div>
+                            </div>
+                            
+                            <div class="content-mid-btn">
+                                <div class="content-mid-top">
+                                    <p>Sữa - Sản phẩm từ sữa</p>
+                                </div>
+                                <div class="content-mid-botton">
+                                    <a href="product-details-16.html">
+                                    <div class="content-item-1">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="milk-item1.jpg" alt="milk">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -20%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Bơ cuộn vị mặn Elle&Vire 80% gói 250g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">100.000đ</p>
+                                                   <p class="price-2">125.000đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="product-details-17.html">
+                                    <div class="content-item-2">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="milk-item2.jpg" alt="milk">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -20%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Bơ lạt tròn cao cấp Elle&Vire 82% 250g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">100.000đ</p>
+                                                   <p class="price-2">125.000đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="product-details-18.html">
+                                    <div class="content-item-3">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="milk-item3.jpg" alt="milk">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -21%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Bơ lạt(nhạt) 82% béo Elle&Vire 200g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">86.500đ</p>
+                                                   <p class="price-2">109.000đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="product-details-19.html">
+                                    <div class="content-item-4">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="milk-item4.png" alt="milk">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -21%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Bơ lạt(mặn) 80% béo Elle&Vire 200g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">86.500đ</p>
+                                                   <p class="price-2">109.000đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="product-details-20.html">
+                                    <div class="content-item-5">
+                                        <div class="product">
+                                            <div class="item-btn">
+                                                <div class="img">
+                                                    <img src="milk-item5.jpg" alt="milk">
+                                                </div>
+                                                <div class="discount">
+                                                    <i  class="discount-label">
+                                                    -29%
+                                                    </i>
+                                                </div>
+                                                <div class="name-item">
+                                                   <p>Bơ lạt 80% béo Elle&Vire 200g</p>
+                                                </div>
+                                                <div class="price">
+                                                   <p class="price-1">53.600đ</p>
+                                                   <p class="price-2">75.500đ</p>
+                                                </div>
+                                                <div class="add-to-cart">
+                                                   <button onclick="clickCounter()" type="button">Thêm giỏ hàng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                <div class="content-button">
+                                    <button id="button-deep">Xem tất cả</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            </div>
+            <div class="footer">
+                <div class="footer-top">
+                    <div class="footer-btn">
+                        <div class="item-1">
+                            <img src="footer.png" alt="">
+                        </div>
+                        <div class="item-2">
+                            <p class="child-1">Contact <span>Info</span></p>
+                            <p>No. Hải Phòng City</p>
+                            <p>Call us: 0329011740</p>
+                            <p>Email: dthroylc@gmail.com</p>
+                        </div>
+                        <div class="item-3">
+                            <p class="child-1">Customer <span>Support</span></p>
+                            <p>- Văn Mạnh</p>
+                            <p>- Quang Huy</p>
+                            <p>- Quang Thực</p>
+                        </div>
+                        <div class="item-4">
+                            <p class="child-1">Get Our <span>Newsletter</span></p>
+                            <div class="child">
+                                <input type="text" placeholder="Type your email ...">
+                                <button>Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-botton">
+                    <div class="footer-botton-btn">
+                        <div class="footer-botton-item-1">
+                             <p>Copy © 2020. Designed by <span>Đào Trọng Hiếu</span>. All right reseved</p>
+                        </div>
+                        <div class="footer-botton-item-2">
+                            <i class="fab fa-facebook-square" id="one"></i>
+                            <i class="fab fa-twitter-square" id="two"></i>
+                            <i class="fab fa-google-plus-square" id="three"></i>
+                            <i class="fab fa-instagram-square" id="four"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="slide.js"></script>
+</body>
+</html>
